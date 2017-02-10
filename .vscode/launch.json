@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://127.0.0.1:3000",
+            "webRoot": "${workspaceRoot}",
+            "osx": {
+                "runtimeExecutable": "/Applications/Chromium.app/Contents/MacOS/Chromium"
+            }
+        }
+    ]
+}
